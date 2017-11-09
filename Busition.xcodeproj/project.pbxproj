@@ -8,12 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		7316EA611F9A22C20016DA22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7316EA601F9A22C20016DA22 /* AppDelegate.swift */; };
-		7316EA631F9A22C20016DA22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7316EA621F9A22C20016DA22 /* ViewController.swift */; };
 		7316EA661F9A22C20016DA22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7316EA641F9A22C20016DA22 /* Main.storyboard */; };
 		7316EA681F9A22C20016DA22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7316EA671F9A22C20016DA22 /* Assets.xcassets */; };
 		7316EA6B1F9A22C20016DA22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7316EA691F9A22C20016DA22 /* LaunchScreen.storyboard */; };
 		7316EA761F9A22C20016DA22 /* BusitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7316EA751F9A22C20016DA22 /* BusitionTests.swift */; };
 		7316EA811F9A22C20016DA22 /* BusitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7316EA801F9A22C20016DA22 /* BusitionUITests.swift */; };
+		7316EA8F1F9A25900016DA22 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7316EA8E1F9A25900016DA22 /* GoogleService-Info.plist */; };
+		735040861FACAB27009A5E7C /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735040851FACAB27009A5E7C /* CustomCell.swift */; };
+		7380B71B1FAE0A8B0002C8B1 /* onlinelogomaker-092417-1752-8405.png in Resources */ = {isa = PBXBuildFile; fileRef = 7380B71A1FAE0A8B0002C8B1 /* onlinelogomaker-092417-1752-8405.png */; };
+		7380B71D1FAE0B310002C8B1 /* blank person.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7380B71C1FAE0B310002C8B1 /* blank person.jpg */; };
+		7381B7AB1FAF3B1F006EF9FD /* MainMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7381B7AA1FAF3B1F006EF9FD /* MainMenuController.swift */; };
+		7381B7AD1FAF3B3C006EF9FD /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7381B7AC1FAF3B3C006EF9FD /* LoginController.swift */; };
+		7381B7AF1FAF3B4F006EF9FD /* EditProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7381B7AE1FAF3B4F006EF9FD /* EditProfileController.swift */; };
+		7381B7B11FAF3B61006EF9FD /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7381B7B01FAF3B61006EF9FD /* SearchController.swift */; };
+		7381B7B31FAF3B70006EF9FD /* CalendarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7381B7B21FAF3B70006EF9FD /* CalendarController.swift */; };
+		7381B7B81FAF3BB1006EF9FD /* InfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7381B7B71FAF3BB1006EF9FD /* InfoController.swift */; };
+		7381B7BC1FAFAA1C006EF9FD /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7381B7BB1FAFAA1C006EF9FD /* SearchCell.swift */; };
+		7381B7BE1FAFB68D006EF9FD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7381B7BD1FAFB68D006EF9FD /* User.swift */; };
+		7381B7C01FAFB6A8006EF9FD /* BusinessUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7381B7BF1FAFB6A8006EF9FD /* BusinessUser.swift */; };
+		7381B7C21FAFB6B8006EF9FD /* PrivateUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7381B7C11FAFB6B8006EF9FD /* PrivateUser.swift */; };
+		7381B7C41FB0332E006EF9FD /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7381B7C31FB0332E006EF9FD /* Event.swift */; };
+		7381B7C81FB4BE83006EF9FD /* CalenderTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7381B7C71FB4BE83006EF9FD /* CalenderTableCell.swift */; };
+		921372B93BF58FDAB4DC9202 /* Pods_Busition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6BECBF69070A7F1506FA57 /* Pods_Busition.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +50,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6AFF338DE1E5C5C4E1C4F01C /* Pods-Busition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Busition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Busition/Pods-Busition.debug.xcconfig"; sourceTree = "<group>"; };
 		7316EA5D1F9A22C20016DA22 /* Busition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Busition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7316EA601F9A22C20016DA22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7316EA621F9A22C20016DA22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7316EA651F9A22C20016DA22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7316EA671F9A22C20016DA22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7316EA6A1F9A22C20016DA22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +63,24 @@
 		7316EA7C1F9A22C20016DA22 /* BusitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7316EA801F9A22C20016DA22 /* BusitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusitionUITests.swift; sourceTree = "<group>"; };
 		7316EA821F9A22C20016DA22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7316EA8E1F9A25900016DA22 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		735040851FACAB27009A5E7C /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		7380B71A1FAE0A8B0002C8B1 /* onlinelogomaker-092417-1752-8405.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "onlinelogomaker-092417-1752-8405.png"; sourceTree = "<group>"; };
+		7380B71C1FAE0B310002C8B1 /* blank person.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "blank person.jpg"; sourceTree = "<group>"; };
+		7381B7AA1FAF3B1F006EF9FD /* MainMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuController.swift; sourceTree = "<group>"; };
+		7381B7AC1FAF3B3C006EF9FD /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		7381B7AE1FAF3B4F006EF9FD /* EditProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileController.swift; sourceTree = "<group>"; };
+		7381B7B01FAF3B61006EF9FD /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		7381B7B21FAF3B70006EF9FD /* CalendarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarController.swift; sourceTree = "<group>"; };
+		7381B7B71FAF3BB1006EF9FD /* InfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoController.swift; sourceTree = "<group>"; };
+		7381B7BB1FAFAA1C006EF9FD /* SearchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		7381B7BD1FAFB68D006EF9FD /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7381B7BF1FAFB6A8006EF9FD /* BusinessUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessUser.swift; sourceTree = "<group>"; };
+		7381B7C11FAFB6B8006EF9FD /* PrivateUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivateUser.swift; sourceTree = "<group>"; };
+		7381B7C31FB0332E006EF9FD /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		7381B7C71FB4BE83006EF9FD /* CalenderTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderTableCell.swift; sourceTree = "<group>"; };
+		90125C92049AD407E4D231FA /* Pods-Busition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Busition.release.xcconfig"; path = "Pods/Target Support Files/Pods-Busition/Pods-Busition.release.xcconfig"; sourceTree = "<group>"; };
+		EA6BECBF69070A7F1506FA57 /* Pods_Busition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Busition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				921372B93BF58FDAB4DC9202 /* Pods_Busition.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +109,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66BE3342E9E852BC01023516 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AFF338DE1E5C5C4E1C4F01C /* Pods-Busition.debug.xcconfig */,
+				90125C92049AD407E4D231FA /* Pods-Busition.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7316EA541F9A22C10016DA22 = {
 			isa = PBXGroup;
 			children = (
+				735040841FACA455009A5E7C /* Resources */,
 				7316EA5F1F9A22C20016DA22 /* Busition */,
 				7316EA741F9A22C20016DA22 /* BusitionTests */,
 				7316EA7F1F9A22C20016DA22 /* BusitionUITests */,
 				7316EA5E1F9A22C20016DA22 /* Products */,
+				66BE3342E9E852BC01023516 /* Pods */,
+				99E104B3D4B893E366223BF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +144,17 @@
 		7316EA5F1F9A22C20016DA22 /* Busition */ = {
 			isa = PBXGroup;
 			children = (
+				7381B7A91FAF3B03006EF9FD /* Logic */,
+				7381B7A81FAF3AF4006EF9FD /* Controllers */,
 				7316EA601F9A22C20016DA22 /* AppDelegate.swift */,
-				7316EA621F9A22C20016DA22 /* ViewController.swift */,
 				7316EA641F9A22C20016DA22 /* Main.storyboard */,
 				7316EA671F9A22C20016DA22 /* Assets.xcassets */,
 				7316EA691F9A22C20016DA22 /* LaunchScreen.storyboard */,
 				7316EA6C1F9A22C20016DA22 /* Info.plist */,
+				7316EA8E1F9A25900016DA22 /* GoogleService-Info.plist */,
+				735040851FACAB27009A5E7C /* CustomCell.swift */,
+				7381B7BB1FAFAA1C006EF9FD /* SearchCell.swift */,
+				7381B7C71FB4BE83006EF9FD /* CalenderTableCell.swift */,
 			);
 			path = Busition;
 			sourceTree = "<group>";
@@ -125,6 +177,47 @@
 			path = BusitionUITests;
 			sourceTree = "<group>";
 		};
+		735040841FACA455009A5E7C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7380B71C1FAE0B310002C8B1 /* blank person.jpg */,
+				7380B71A1FAE0A8B0002C8B1 /* onlinelogomaker-092417-1752-8405.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7381B7A81FAF3AF4006EF9FD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7381B7AA1FAF3B1F006EF9FD /* MainMenuController.swift */,
+				7381B7AC1FAF3B3C006EF9FD /* LoginController.swift */,
+				7381B7AE1FAF3B4F006EF9FD /* EditProfileController.swift */,
+				7381B7B01FAF3B61006EF9FD /* SearchController.swift */,
+				7381B7B21FAF3B70006EF9FD /* CalendarController.swift */,
+				7381B7B71FAF3BB1006EF9FD /* InfoController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7381B7A91FAF3B03006EF9FD /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				7381B7BD1FAFB68D006EF9FD /* User.swift */,
+				7381B7BF1FAFB6A8006EF9FD /* BusinessUser.swift */,
+				7381B7C11FAFB6B8006EF9FD /* PrivateUser.swift */,
+				7381B7C31FB0332E006EF9FD /* Event.swift */,
+			);
+			name = Logic;
+			sourceTree = "<group>";
+		};
+		99E104B3D4B893E366223BF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA6BECBF69070A7F1506FA57 /* Pods_Busition.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7316EA851F9A22C20016DA22 /* Build configuration list for PBXNativeTarget "Busition" */;
 			buildPhases = (
+				D7A7C074B38E0720DCDFB686 /* [CP] Check Pods Manifest.lock */,
 				7316EA591F9A22C20016DA22 /* Sources */,
 				7316EA5A1F9A22C20016DA22 /* Frameworks */,
 				7316EA5B1F9A22C20016DA22 /* Resources */,
+				A2239E03F8D003957340C728 /* [CP] Embed Pods Frameworks */,
+				7A3FBCEAA5C2DC3826FF2745 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,7 +328,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7380B71D1FAE0B310002C8B1 /* blank person.jpg in Resources */,
+				7380B71B1FAE0A8B0002C8B1 /* onlinelogomaker-092417-1752-8405.png in Resources */,
 				7316EA6B1F9A22C20016DA22 /* LaunchScreen.storyboard in Resources */,
+				7316EA8F1F9A25900016DA22 /* GoogleService-Info.plist in Resources */,
 				7316EA681F9A22C20016DA22 /* Assets.xcassets in Resources */,
 				7316EA661F9A22C20016DA22 /* Main.storyboard in Resources */,
 			);
@@ -254,13 +353,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7A3FBCEAA5C2DC3826FF2745 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Busition/Pods-Busition-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2239E03F8D003957340C728 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Busition/Pods-Busition-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Busition/Pods-Busition-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7A7C074B38E0720DCDFB686 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Busition-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7316EA591F9A22C20016DA22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7316EA631F9A22C20016DA22 /* ViewController.swift in Sources */,
+				7381B7C81FB4BE83006EF9FD /* CalenderTableCell.swift in Sources */,
+				7381B7BC1FAFAA1C006EF9FD /* SearchCell.swift in Sources */,
+				735040861FACAB27009A5E7C /* CustomCell.swift in Sources */,
+				7381B7B81FAF3BB1006EF9FD /* InfoController.swift in Sources */,
+				7381B7C01FAFB6A8006EF9FD /* BusinessUser.swift in Sources */,
+				7381B7C21FAFB6B8006EF9FD /* PrivateUser.swift in Sources */,
+				7381B7B11FAF3B61006EF9FD /* SearchController.swift in Sources */,
+				7381B7AF1FAF3B4F006EF9FD /* EditProfileController.swift in Sources */,
+				7381B7B31FAF3B70006EF9FD /* CalendarController.swift in Sources */,
+				7381B7AD1FAF3B3C006EF9FD /* LoginController.swift in Sources */,
 				7316EA611F9A22C20016DA22 /* AppDelegate.swift in Sources */,
+				7381B7AB1FAF3B1F006EF9FD /* MainMenuController.swift in Sources */,
+				7381B7C41FB0332E006EF9FD /* Event.swift in Sources */,
+				7381B7BE1FAFB68D006EF9FD /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,9 +585,11 @@
 		};
 		7316EA861F9A22C20016DA22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AFF338DE1E5C5C4E1C4F01C /* Pods-Busition.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Busition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = naknikim.Busition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,9 +599,11 @@
 		};
 		7316EA871F9A22C20016DA22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90125C92049AD407E4D231FA /* Pods-Busition.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Busition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = naknikim.Busition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +684,7 @@
 				7316EA871F9A22C20016DA22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7316EA881F9A22C20016DA22 /* Build configuration list for PBXNativeTarget "BusitionTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +693,7 @@
 				7316EA8A1F9A22C20016DA22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7316EA8B1F9A22C20016DA22 /* Build configuration list for PBXNativeTarget "BusitionUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +702,7 @@
 				7316EA8D1F9A22C20016DA22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
